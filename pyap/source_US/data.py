@@ -310,6 +310,9 @@ occupancy = r"""
                             |
                             # Room
                             [Rr][Oo][Oo][Mm]\ |[Rr][Mm]\.?\ 
+                            |
+                            # Number
+                            [#]
                         )
                         (?:
                             [A-Za-z\#\&\-\d]{1,7}
