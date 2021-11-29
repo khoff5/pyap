@@ -113,6 +113,7 @@ class AddressParser:
         removes excessive spaces, tabs, newlines, etc.
         '''
         conversion = {
+            r'[|]': ', ',
             # newlines
             r'\r*(\n\r*)+': ', ',
             r'\s*(\,\s*)+': ', ',
